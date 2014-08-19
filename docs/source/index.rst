@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-StarUML Documentation
-=====================
+StarUML 2 Documentation
+=======================
 
 Contents:
 
@@ -17,6 +17,8 @@ Contents:
    managing-project
    editing-elements-and-diagrams
    modeling-with-uml
+   settings
+   managing-extensions
    writing-extensions
 
 
