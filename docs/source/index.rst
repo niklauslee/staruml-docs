@@ -14,7 +14,8 @@ Contents:
    introduction
    getting-started
    basic-concepts
-   usage
+   managing-project
+   editing-elements-and-diagrams
    modeling-with-uml
    writing-extensions
 
