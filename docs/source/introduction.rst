@@ -2,34 +2,22 @@
 Introduction
 ============
 
-This chapter contains a general overview of StarUML™. Included are brief overviews of StarUML™ and UML, and outlines of StarUML™’s new features and overall organization.
 
-What is StarUML
-===============
+UML 2 Compatible
+================
 
-StarUML™ is a software modeling platform that supports UML (Unified Modeling Language). It is based on UML version 1.4 and provides eleven different types of diagram, and it accepts UML 2.0 notation. It actively supports the MDA (Model Driven Architecture) approach by supporting the UML profile concept. StarUML™ excels in customizability to the user’s environment and has a high extensibility in its functionality. Using StarUML™, one of the top leading software modeling tools, will guarantee to maximize the productivity and quality of your software projects.
+UML metamodel of StarUML 2 is newly defined. It is not only compatible with UML 2.x standard but also simplified to access to model data much easier. StarUML supports totally 11 kinds of UML diagrams (Class, Object, Use Case, Component, Deployment, Composite Structure, Sequence, Communication, Startchart, Activity and Profile Diagram).
+Do you want to extend UML? Then, you don't need to defined complicated XML documents or to write codes. UML Profiles could be defined easily using Profile Diagram. The user-defined profile can be embeded within the user's model so as to share models without distribution of profile in a separate way.
 
-UML Tool that Adapts to the User
---------------------------------
+Extensibility
+=============
 
-StarUML™ provides maximum customization to the user’s environment by offering customizing variables that can be applied in the user’s software development methodology, project platform, and language.
+StarUML 2 is developed using modern Web Technologies, so anyone can write extensions using HTML5, CSS, and JavaScript. Adding a new menu, accessing to model data, adding a new user interfaces or dialogs, and even new modeling languages (e.g., ERD, BPMN) could be defined as an extension. In addition, the model file (.umlj) is stored in JSON (JavaScript Object Notation) format which can be parsed and accessed easily in many programming languages.
+One interesting point of StarUML 2 is Node.js integration. This allows you to access local files, many kinds of Databases, and interoperating with various Servers. Moreover, you can utilize more than 50,000 Node.js packages to write extensions.
 
-True MDA Support
-----------------
+Enhanced UX
+===========
 
-Software architecture is a critical process that can reach 10 years or more into the future. The intention of the OMG (Object Management Group) is to use MDA (Model Driven Architecture) technology to create platform independent models and allow automatic acquisition of platform dependent models or codes from platform independent models. StarUML™ truly complies with UML 1.4 standards, UML 2.0 notation and provides the UML Profile concept, allowing creation of platform independent models. Users can easily obtain their end products through simple template document.
-
-Excellent Extensibility and Flexibility
----------------------------------------
-
-StarUML™ provides excellent extensibility and flexibility. It provides Add-In frameworks for extending the functionality of the tool. It is designed to allow access to all functions of the model/meta-model and tool through COM Automation, and it provides extension of menu and option items. Also, users can create their own approaches and frameworks according to their methodologies. The tool can also be integrated with any external tools.
-
-Features
-========
-
-
-Installation
-============
-
-
+StarUML 2 provide completely new platform-neutral user interfaces (Dark Theme, Quick Edit, Dialogs) while keeping usability, simplicity, and modern design trends.
+Diagram representation is much improved via anti-alising and direct use of Web Fonts. Diagrams can be exported in PNG, JPEG, and SVG formats.
 
