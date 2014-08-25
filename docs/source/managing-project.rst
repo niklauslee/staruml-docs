@@ -15,7 +15,7 @@ If you have model files (``.umlj``), you can open it in StarUML. To open a model
 Open StarUML V1 File
 ====================
 
-If you have StarUML V1 model files (``.uml``), you can convert to by selecting **File | Import | StarUML 1 File (.uml)..**.
+If you have StarUML V1 model files (``.uml``), you can import by selecting **File | Import | StarUML 1 File (.uml)..**.
 
 Save Project
 ============
@@ -30,7 +30,9 @@ To close working project, select **File | Close**. If you didn't saved the proje
 Export Fragment
 ===============
 
-
+To export a part of the project as a fragment, select **File | Export | Fragment...** and then select an element to export in **Element Picker Dialog**.
 
 Import Fragment
 ===============
+
+To import a fragment into the project, select **File | Import | Fragment...**. The fragment will be included as a child of the project.
