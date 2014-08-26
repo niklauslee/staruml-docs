@@ -16,10 +16,11 @@ Contents:
    basic-concepts
    managing-project
    editing-elements-and-diagrams
-   modeling-with-uml
+   Modeling with UML <modeling-with-uml/modeling-with-uml>
    settings
    managing-extensions
    writing-extensions
+   reference
 
 
 Indices and tables
