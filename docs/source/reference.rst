@@ -56,7 +56,7 @@ Quick Edit for Attribute
 ========================
 
 * Change ``visibility`` - Select a visibility kind in the dropdown.
-* Edit Attribute expression
+* Edit attribute expression
 * Add - Press Add button or press :kbd:`Ctrl+Enter`.
 * Delete - Press Delete button or press :kbd:`Ctrl+Delete`.
 * Move Up - Press Add Operation button or press :kbd:`Ctrl+Up`.
@@ -69,12 +69,51 @@ Quick Edit for Operation
 ========================
 
 * Change ``visibility`` - Select a visibility kind in the dropdown.
-* Edit Attribute expression
+* Edit operation expression
 * Add - Press Add button or press :kbd:`Ctrl+Enter`.
 * Delete - Press Delete button or press :kbd:`Ctrl+Delete`.
 * Move Up - Press Add Operation button or press :kbd:`Ctrl+Up`.
 * Move Down - Press Add Operation button or press :kbd:`Ctrl+Down`.
 
+
+.. _quick-edit-template-parameter:
+
+Quick Edit for Template Parameter
+=================================
+
+* Change ``visibility`` - Select a visibility kind in the dropdown.
+* Edit template parameter expression
+* Add - Press Add button or press :kbd:`Ctrl+Enter`.
+* Delete - Press Delete button or press :kbd:`Ctrl+Delete`.
+* Move Up - Press Add Operation button or press :kbd:`Ctrl+Up`.
+* Move Down - Press Add Operation button or press :kbd:`Ctrl+Down`.
+
+
+.. _quick-edit-enumeration:
+
+Quick Edit for Enumeration
+==========================
+
+Applicable to Enumeration.
+
+Support following actions:
+
+* Change ``visibility`` - Select visibility in the dropdown button.
+* Edit name expression - Refer to :ref:`syntax-name-expression`.
+* Add Enumeration Literal - Click Add Literal button.
+
+
+.. _quick-edit-enumeration-literal:
+
+Quick Edit for Enumeration Literal
+==================================
+
+* Change ``visibility`` - Select a visibility kind in the dropdown.
+* Edit name expression
+* Add - Press Add button or press :kbd:`Ctrl+Enter`.
+* Delete - Press Delete button or press :kbd:`Ctrl+Delete`.
+* Move Up - Press Add Operation button or press :kbd:`Ctrl+Up`.
+* Move Down - Press Add Operation button or press :kbd:`Ctrl+Down`.
 
 
 ==================

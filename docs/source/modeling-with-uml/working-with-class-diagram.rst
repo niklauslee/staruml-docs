@@ -54,7 +54,7 @@ To edit a Class, you can do following actions:
 * Use :ref:`quick-edit-classifier` by double-click or press :kbd:`Enter` on a selected Class.
 * Add Attribute - See :ref:`uml-attribute`
 * Add Operation - See :ref:`uml-operation`
-* Add TemplateParameter - See :ref:`uml-template-parameter`
+* Add Template Parameter - See :ref:`uml-template-parameter`
 
 
 .. _uml-attribute:
@@ -92,6 +92,14 @@ To edit an Operation, you can do following actions:
 Template Parameter
 ==================
 
+To add a Template Parameter:
+
+1. Select an Element.
+2. Select **Model | Add | Template Parameter** in Menu Bar or **Add | Template Parameter** in Context Menu.
+
+To edit an Template Parameter, you can do following actions:
+
+* Use :ref:`quick-edit-template-parameter` by double-click or press :kbd:`Enter` on a selected Template Parameter.
 
 
 .. _uml-interface:
@@ -104,23 +112,17 @@ To create an Interface:
 1. Select **Interface** in **Toolbox**.
 2. Drag on the diagram as the size of Interface.
 
-To create a Interface (model element only) by Menu:
+To create an Interface (model element only) by Menu:
 
 1. Select an Element where a new Interface to be contained.
 2. Select **Model | Add | Interface** in Menu Bar or **Add | Interface** in Context Menu.
 
-To show Quick Edit for Interface, double-click or press :kbd:`Enter` on a selected Interface. Quick Edit allows following actions:
+To edit an Interface, you can do following actions:
 
-* Change ``visibility`` - Select a visibility kind in the dropdown.
-* Edit name expression
-* Add Attribute - Press Add Attribute button.
-* Add Operation - Press Add Operation button.
-
-You can add Attributes, Operations, and Template Parameters to an Interface.
-
-* See :ref:`uml-attribute`
-* See :ref:`uml-operation`
-* See :ref:`uml-template-parameter`
+* Use :ref:`quick-edit-classifier` by double-click or press :kbd:`Enter` on a selected Interface.
+* Add Attribute - See :ref:`uml-attribute`
+* Add Operation - See :ref:`uml-operation`
+* Add Template Parameter - See :ref:`uml-template-parameter`
 
 
 .. _uml-generalization:
@@ -128,7 +130,7 @@ You can add Attributes, Operations, and Template Parameters to an Interface.
 Generalization
 ==============
 
-To create an Generalization:
+To create a Generalization:
 
 1. Select **Generalization** in **Toolbox**.
 2. Drag from an element (to be special) and drop on another element (to be general).
@@ -150,7 +152,7 @@ To create an Association (or Directed Association):
 Aggregation
 ===========
 
-Aggregation is an association whose ``aggregation`` propery value is ``shared``.
+Aggregation is an association whose ``aggregation`` propery is ``shared``.
 
 To create an Aggregation:
 
@@ -163,7 +165,7 @@ To create an Aggregation:
 Composition
 ===========
 
-Composition is an association whose ``aggregation`` propery value is ``composite``.
+Composition is an association whose ``aggregation`` propery is ``composite``.
 
 To create a Composition:
 
@@ -187,11 +189,33 @@ To create an Dependency:
 Interface Realization
 =====================
 
+To create an Interface Realization:
+
+1. Select **Interface Realization** in **Toolbox**.
+2. Drag from an element (realizing) and drop on an interface (to be realized).
+
 
 .. _uml-signal:
 
 Signal
 ======
+
+To create a Signal:
+
+1. Select **Signal** in **Toolbox**.
+2. Drag on the diagram as the size of Signal.
+
+To create a Signal (model element only) by Menu:
+
+1. Select an Element where a new Signal to be contained.
+2. Select **Model | Add | Signal** in Menu Bar or **Add | Signal** in Context Menu.
+
+To edit a Signal, you can do following actions:
+
+* Use :ref:`quick-edit-classifier` by double-click or press :kbd:`Enter` on a selected Signal.
+* Add Attribute - See :ref:`uml-attribute`
+* Add Operation - See :ref:`uml-operation`
+* Add Template Parameter - See :ref:`uml-template-parameter`
 
 
 .. _uml-data-type:
@@ -199,11 +223,45 @@ Signal
 DataType
 ========
 
+To create a DataType:
+
+1. Select **DataType** in **Toolbox**.
+2. Drag on the diagram as the size of DataType.
+
+To create a DataType (model element only) by Menu:
+
+1. Select an Element where a new DataType to be contained.
+2. Select **Model | Add | DataType** in Menu Bar or **Add | DataType** in Context Menu.
+
+To edit a DataType, you can do following actions:
+
+* Use :ref:`quick-edit-classifier` by double-click or press :kbd:`Enter` on a selected DataType.
+* Add Attribute - See :ref:`uml-attribute`
+* Add Operation - See :ref:`uml-operation`
+* Add Template Parameter - See :ref:`uml-template-parameter`
+
 
 .. _uml-primitive-type:
 
 PrimitiveType
 =============
+
+To create a PrimitiveType:
+
+1. Select **PrimitiveType** in **Toolbox**.
+2. Drag on the diagram as the size of PrimitiveType.
+
+To create a PrimitiveType (model element only) by Menu:
+
+1. Select an Element where a new PrimitiveType to be contained.
+2. Select **Model | Add | PrimitiveType** in Menu Bar or **Add | PrimitiveType** in Context Menu.
+
+To edit a PrimitiveType, you can do following actions:
+
+* Use :ref:`quick-edit-classifier` by double-click or press :kbd:`Enter` on a selected PrimitiveType.
+* Add Attribute - See :ref:`uml-attribute`
+* Add Operation - See :ref:`uml-operation`
+* Add Template Parameter - See :ref:`uml-template-parameter`
 
 
 .. _uml-enumeration:
@@ -211,9 +269,55 @@ PrimitiveType
 Enumeration
 ===========
 
+To create an Enumeration:
+
+1. Select **Enumeration** in **Toolbox**.
+2. Drag on the diagram as the size of Enumeration.
+
+To create an Enumeration (model element only) by Menu:
+
+1. Select an Element where a new Enumeration to be contained.
+2. Select **Model | Add | Enumeration** in Menu Bar or **Add | Enumeration** in Context Menu.
+
+To edit a Enumeration, you can do following actions:
+
+* Use :ref:`quick-edit-enumeration` by double-click or press :kbd:`Enter` on a selected Enumeration.
+* Add EnumerationLiteral - See :ref:`uml-enumeration-literal`
+* Add Attribute - See :ref:`uml-attribute`
+* Add Operation - See :ref:`uml-operation`
+* Add Template Parameter - See :ref:`uml-template-parameter`
+
+
+.. _uml-enumeration-literal:
+
+Enumeration Literal
+===================
+
+To add an Enumeration Literal:
+
+1. Select a Classifier.
+2. Select **Model | Add | Enumeration Literal** in Menu Bar or **Add | Enumeration Literal** in Context Menu.
+
+To edit an Enumeration Literal, you can do following actions:
+
+* Use :ref:`quick-edit-enumeration-literal` by double-click or press :kbd:`Enter` on a selected Enumeration Literal.
+
 
 .. _uml-association-class:
 
 AssociationClass
 ================
+
+To create an Association Class by linking two Classifiers:
+
+1. Select **Association Class** in **Toolbox**.
+2. Drag from an element and drop on another element.
+3. An Association and a Class connected to the association will be created.
+
+
+To create an Association Class by linking Association and Class:
+
+1. Select **Association Class** in **Toolbox**.
+2. Drag from an Association (or Class) and drop on a Class (or Association).
+3. The Class will be connected to the Association.
 
