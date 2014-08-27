@@ -2,9 +2,15 @@
 Editing Elements and Diagrams
 =============================
 
+.. contents::
+
+
+
+Editing Diagrams
+================
 
 Create Diagram
-==============
+--------------
 
 To create a Diagram:
 
@@ -12,28 +18,57 @@ To create a Diagram:
 2. Select **Model | Add Diagram | <DiagramType>** in Menu Bar or select **Add Diagram | <DiagramType>** in Context Menu.
 
 
-Managing Working Diagrams
-=========================
+Delete Diagram
+--------------
+
+To delete a Diagram:
+
+1. Select a Diagram to delete in **Explorer**.
+2. Press :kbd:`Ctrl+Delete` or select **Edit | Delete from Model** in Menu Bar or **Delete from Model** in Context Menu.
+
 
 Open Diagram
 ------------
 
+To open a diagram, double-click a diagram in **Explorer**.
+
 Close Diagram
 -------------
+
+To close a diagram, click the close icon (``x`` mark) of a diagram in **Working Diagrams** or press :kbd:`F4` or select **View | Close Diagram** in Menu Bar.
+
+To close other diagram except a active diagram, press :kbd:`Ctrl+F4` or select **View | Close Other Diagrams** in Menu Bar.
+
+To close all diagrams, press :kbd:`Shift+F4` or select **View | Close All Diagrams** in Menu Bar.
+
 
 Change Active Diagram
 ---------------------
 
+To change active diagram, select a diagram in  in **Working Diagram**.
 
+To activate the next diagram, press :kbd:`Ctrl+Shift+]` or select **View | Next Diagram**.
 
+To activate the previous diagram, press :kbd:`Ctrl+Shift+[` or select **View | Previous Diagram**.
+
+Zoom In and Out
+---------------
+
+To zoom in the diagram, press :kbd:`Ctrl++` or select **View | Zoom In** in Menu Bar.
+
+To zoom out the diagram, press :kbd:`Ctrl+-` or select **View | Zoom Out** in Menu Bar.
+
+To set zoom level to actual size, press :kbd:`Ctrl+0` or select **View | Actual Size** in Menu Bar.
+
+You can check the current zoom level in **StatusBar**.
+
+Editing Elements
+================
 
 Create Element
-==============
+--------------
 
 You have following options to create Model Elements and View Elements.
-
-Create Element from Toolbox
----------------------------
 
 To create an Element from **Toolbox**:
 
@@ -43,11 +78,8 @@ To create an Element from **Toolbox**:
 .. note::
 	In most cases, creating an element from **Toolbox** means creating the both Model Element and View Element. For example, if you create a Class in a Diagram from Toolbox, a Class Model Element and a Class View Model which referencing the Model Element will be created. See :ref:`concept-element`
 
-
-Create View Element by Drag-and-Drop
-------------------------------------
-
 If you have already Model Elements, you can create View Elements referencing the Model Element on a Diagram.
+
 
 To create a View Model by Drag-and-Drop:
 
@@ -55,27 +87,21 @@ To create a View Model by Drag-and-Drop:
 2. Drag the Model Element and drop on a Diagram.
 
 
-Create Model Element in Explorer
---------------------------------
-
 To create a Model Element in **Explorer**:
 
 1. Select first an element where a new Model Element to be contained as a child in **Explorer**.
 2. Select **Model | Add | <ElementType>** in Menu Bar or select **Add | <ElementType>** in Context Menu.
 
-Delete Elements
-===============
 
+.. _edit-delete:
+
+Delete Elements
+---------------
 
 .. seealso::
 	:ref:`concept-element`
 		Before deleting elements, you need to distinguish the difference of Model Element, View Element, and Diagram.
 
-
-.. _edit-delete:
-
-Delete View Elements
---------------------
 
 To delete View Elements in a Diagram.
 
@@ -85,11 +111,6 @@ To delete View Elements in a Diagram.
 .. note::
 	Deleting View Elements do not delete Model Elements.
 
-
-.. _edit-delete-from-model:
-
-Delete Model Elements
----------------------
 
 To delete Model Elements:
 
@@ -103,10 +124,9 @@ To delete Model Elements:
 .. _edit-select-elements:
 
 Select Elements
-===============
+---------------
 
-Select Elements in Diagram
---------------------------
+To select view elements in **Diagram Editor**:
 
 You can select an Element in Diagram just by clicking on an Element. If you want to select additional elements while keeping current selections, click on element with pressing :kbd:`Shift`.
 When you drag an area, Elements overlaps the area will be selected. Pressing :kbd:`Shift` also work with dragging.
@@ -117,29 +137,27 @@ If you want to select all elements in the Diagram, press :kbd:`Ctrl+A` or select
 	Selecing an Element on a Diagram means selection of the both Model Element and View Element.
 
 
-Select Model Element in Explorer
---------------------------------
+To select a model element in **Explorer**:
 
 In **Explorer**, you can select a Model Element by clicking on an Element.
 
 If you want to select an element in **Explorer** corresponding to the a selected element in Diagram, press :kbd:`Ctrl+E` or select **Edit | Select In Explorer** in Menu Bar or **Select In Explorer** in Context Menu.
 
 
-Copy, Cut and Paste
-===================
+Copy and Paste
+--------------
 
 When copying or cutting elements for pasting, a clear distinction has to be made between model elements and view elements. If a model element is copied, it has to be pasted under a model element. In this case, all the sub-elements contained in the selected element are copied together. View elements can be copied within the same diagram or to different diagrams. Copied view elements can be pasted in diagrams only; they cannot be pasted to model elements. Copying and pasting may also be restricted depending on the view element types and diagram types.
 
-Copy and Paste View Elements in Diagram
----------------------------------------
+To copy and paste view elements in **Diagram Editor**
 
 1. Select view elements in a diagram to copy. (You can select multiple elements. See :ref:`edit-select-elements`)
 2. Press :kbd:`Ctrl+C` or select **Edit | Copy** in Menu Bar or **Copy** in Context Menu. (To cut view elements, press :kbd:`Ctrl+X` or select **Edit | Cut** in Menu Bar or **Cut** in Context Menu)
 3. Open the diagram where the copied view elements to be pasted. (See open diagram??)
 4. Press :kbd:`Ctrl+V` or select **Edit | Paste** in Menu Bar or **Paste** in Context Menu. The copied view elements will be pasted to the active diagram.
 
-Copy and Paste Model Elements in Explorer
------------------------------------------
+
+To copy and paste a model element in **Explorer**:
 
 1. Select a model element to copy in **Explorer**.
 2. Press :kbd:`Ctrl+C` or select **Edit | Copy** in Menu Bar or **Copy** in Context Menu. (To cut view elements, press :kbd:`Ctrl+X` or select **Edit | Cut** in Menu Bar or **Cut** in Context Menu)
@@ -151,21 +169,27 @@ Copy and Paste Model Elements in Explorer
 	Some elements are not allowed to copy, cut, and paste.
 
 Undo and Redo
-=============
+-------------
 
-All user actions can be un-executed and re-executed.
+To undo an action, press :kbd:`Ctrl+Z` or select **Edit | Undo** in Menu Bar.
 
-To undo actions:
-
-1. Press :kbd:`Ctrl+Z` or select **Edit | Undo** in Menu Bar.
-
-To redo undo-ed actions:
-
-1. Press :kbd:`Ctrl+Y` or select **Edit | Redo** in Menu Bar.
+To redo an undo-ed action, press :kbd:`Ctrl+Y` or select **Edit | Redo** in Menu Bar.
 
 
-Styling View Elements
-=====================
+Edit Properties
+---------------
+
+You can edit properties of model elements in :ref:`ui-property-editor`.
+
+
+Documenting Elements
+--------------------
+
+You can edit documentation of model elements in :ref:`ui-documentation-editor`.
+
+
+Formatting View Elements
+========================
 
 Change Font
 -----------
@@ -175,6 +199,9 @@ To change font face, size, and color of view elements:
 1. Select view elements in diagram.
 2. Show **FontDialog** by pressing :kbd:`Ctrl+Shift+F` or selecting **Format | Font...** in Menu Bar or Context Menu.
 3. Select font face, size or color and press **OK** button.
+
+.. image:: images/font-dialog.png
+
 
 You can also use :ref:`ui-style-editor` to change Font face, size, and color.
 
@@ -187,6 +214,8 @@ To change line color of view elements:
 1. Select view elements in diagram.
 2. Show **ColorDialog** for line color by pressing :kbd:`Ctrl+Shift+L` or selecting **Format | Line Color...** in Menu Bar or Context Menu.
 3. Select line color and press **OK** button.
+
+.. image:: images/color-dialog.png
 
 You can also use :ref:`ui-style-editor` to change line color.
 
@@ -206,14 +235,16 @@ You can also use :ref:`ui-style-editor` to change fill color.
 Change Line Style
 ------------------
 
-Two kinds of line are supported
+.. image:: images/line-style.png
 
-**Rectilinear**
-	Good.
+To change line style of view elements:
 
+1. Select view elements in diagram.
+2. Select one of line styles.
+	* Rectilinear - Press :kbd:`Ctrl+L` or select **Format | Line Style | Rectilinear** in Menu Bar or Context Menu.
+	* Oblique - Press :kbd:`Ctrl+B` or select **Format | Line Style | Oblique** in Menu Bar or Context Menu.
 
-**Oblique**
-
+You can also use :ref:`ui-style-editor` to line style.
 
 Set Auto Resize
 ---------------
@@ -223,6 +254,18 @@ Set Auto Resize
 Set Word Wrap
 -------------
 
+
+Stereotype Display
+------------------
+
+.. image:: /images/stereotype-display.png
+
+* None
+* Label
+* Decoration
+* Decoration with Label
+* Icon
+* Icon with Label
 
 
 Show Visibility
@@ -234,38 +277,26 @@ Show Namespace
 Show Property
 -------------
 
-Stereotype Display
-------------------
 
-**None**
+Aligning View Elements
+----------------------
 
-**Label**
-
-**Decoration**
-
-**Decoration with Label**
-
-**Icon**
-
-**Icon with Label**
+Layout Diagram
+--------------
 
 
+Extending Elements
+==================
+
+Assign Stereotype
+-----------------
 
 
-Edit Properties
-===============
-
-You can edit properties of model elements in :ref:`ui-property-editor`.
-
-
-Documenting Elements
-====================
-
-You can edit documentation of model elements in :ref:`ui-documentation-editor`.
-
+Add Constraints
+---------------
 
 Add Tags
-========
+--------
 
 Tag is an element to add extended properties to Model Elements
 
@@ -296,4 +327,7 @@ Properties of Tag:
 
 To show or hide Tags on View Elements, select **Show Property**
 
+
+Finding Model Elements
+======================
 
