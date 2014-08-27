@@ -20,7 +20,7 @@ Contents:
    settings
    managing-extensions
    writing-extensions
-   reference
+   Reference <reference/reference>
 
 
 Indices and tables

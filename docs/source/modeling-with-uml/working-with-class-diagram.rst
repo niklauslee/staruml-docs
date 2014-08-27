@@ -57,6 +57,11 @@ To edit a Class, you can do following actions:
 * Add Template Parameter - See :ref:`uml-template-parameter`
 
 
+Suppress Attributes
+
+Suppress Operations
+
+
 .. _uml-attribute:
 
 Attribute
@@ -85,6 +90,8 @@ To add an Operation:
 To edit an Operation, you can do following actions:
 
 * Use :ref:`quick-edit-operation` by double-click or press :kbd:`Enter` on a selected Operation.
+
+Show Operation Signature
 
 
 .. _uml-template-parameter:
@@ -123,6 +130,12 @@ To edit an Interface, you can do following actions:
 * Add Attribute - See :ref:`uml-attribute`
 * Add Operation - See :ref:`uml-operation`
 * Add Template Parameter - See :ref:`uml-template-parameter`
+
+
+To lollipop notation
+
+To socket notation
+
 
 
 .. _uml-generalization:
@@ -286,6 +299,9 @@ To edit a Enumeration, you can do following actions:
 * Add Attribute - See :ref:`uml-attribute`
 * Add Operation - See :ref:`uml-operation`
 * Add Template Parameter - See :ref:`uml-template-parameter`
+
+
+Suppress Literals
 
 
 .. _uml-enumeration-literal:

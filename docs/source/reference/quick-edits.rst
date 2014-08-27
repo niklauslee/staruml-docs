@@ -116,8 +116,3 @@ Quick Edit for Enumeration Literal
 * Move Down - Press Add Operation button or press :kbd:`Ctrl+Down`.
 
 
-==================
-Keyboard Shortcuts
-==================
-
-

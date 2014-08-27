@@ -2,6 +2,8 @@
 Basic Concepts
 ==============
 
+.. _concept-project:
+
 Project
 =======
 
@@ -15,12 +17,16 @@ Typically *Project* is organized as a set of *UMLModels*, *UMLPackages*, or *UML
     :doc:`modeling-with-uml`
         See the Organizing Project section.
 
+.. _concept-element:
+
 Model Element, View Element, and Diagram
 ========================================
 
 *Element* is building block constitutes a software model. There are three kinds of *Elements*: *Model Element*, *View Element*, and *Diagram*.
 
 You need to have a clear conceptual distinction between Model Element, View Element and Diagram. A *Model Element* is an element that contains information for a software model. A *View Element* is a visual representation of a particular a *Model Element*. A *Diagram* is a collection of *View Elements* in order to represent a partcular perspective of the system.
+
+.. _concept-fragment:
 
 Fragment
 ========
@@ -30,6 +36,8 @@ A fragment is a part of a project saved as a separate file with the extension na
 .. seealso::
     :doc:`managing-project`
         See the Import Fragment and Export Fragment sections.
+
+.. _concept-profile:
 
 Profile
 =======
@@ -42,6 +50,9 @@ UML (Unified Modeling Language) is so general-purpose modeling language that cou
 
 .. seealso::
     Defining UML Profiles... (fix this link)
+
+
+.. _concept-extension:
 
 Extension
 =========
