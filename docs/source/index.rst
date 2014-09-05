@@ -19,7 +19,7 @@ Contents:
    Modeling with UML <modeling-with-uml/modeling-with-uml>
    settings
    managing-extensions
-   writing-extensions
+   Writing Extensions <writing-extensions/writing-extensions>
    Reference <reference/reference>
 
 

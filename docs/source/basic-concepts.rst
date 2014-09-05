@@ -14,7 +14,7 @@ Modeling a software system requires describing multiple models because it is not
 Typically *Project* is organized as a set of *UMLModels*, *UMLPackages*, or *UMLSubsystems*. If you want to know more about UML Elements, please refer to OMG UML Specification.
 
 .. seealso::
-    :doc:`modeling-with-uml`
+    :ref:`organizing-project`
         See the Organizing Project section.
 
 .. _concept-element:
@@ -34,8 +34,11 @@ Fragment
 A fragment is a part of a project saved as a separate file with the extension name ``.umlf``. Any element can be exported as a fragment, but typically *UMLPackage*, *UMLModel*, and *UMLSubsystem* are the candidates. Once a fragment is exported as a file, the fragment can be reused by importing in a project.
 
 .. seealso::
-    :doc:`managing-project`
-        See the Import Fragment and Export Fragment sections.
+    :ref:`import-fragment`
+    	To import a fragment file.
+
+    :ref:`export-fragment`
+    	To export an element to a fragment file.
 
 .. _concept-profile:
 
