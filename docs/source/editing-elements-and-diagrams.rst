@@ -249,40 +249,157 @@ You can also use :ref:`ui-style-editor` to line style.
 Set Auto Resize
 ---------------
 
+To set view elements always resize automatically:
 
+1. Select view elements in diagram.
+2. Press :kbd:`Ctrl+Shift+R` or check (or uncheck) **Format | Auto Resize** in Menu Bar or Context Menu.
+
+You can also use :ref:`ui-style-editor` to line style.
 
 Set Word Wrap
 -------------
+
+To allow text can be shown in multiple lines:
+
+1. Select view elements in diagram.
+2. Press :kbd:`Ctrl+Shift+W` or check (or uncheck) **Format | Word Wrap** in Menu Bar or Context Menu.
 
 
 Stereotype Display
 ------------------
 
-.. image:: /images/stereotype-display.png
+An element has six alternative representations based on the stereotype. To change stereotype display:
 
-* None
-* Label
-* Decoration
-* Decoration with Label
-* Icon
-* Icon with Label
+1. Select view elements in diagram.
+2. Press :kbd:`Ctrl+Shift+0` ~ :kbd:`Ctrl+Shift+5` or select **Format | Stereotype Display | <StereotypeDisplayKind>** in Menu Bar or Context Menu.
+
+Supported stereotype display kinds are follow:
+
+* None (:kbd:`Ctrl+Shift+0`) : Do not show stereotype.
+* Label (:kbd:`Ctrl+Shift+1`) : Show stereotype as a label.
+* Decoration (:kbd:`Ctrl+Shift+2`) : Show stereotype as a decorated icon on the top left.
+* Decoration with Label (:kbd:`Ctrl+Shift+3`) : Show stereotype as a label with a decorated icon.
+* Icon (:kbd:`Ctrl+Shift+4`) : Show element as a icon.
+* Icon with Label (:kbd:`Ctrl+Shift+5`) : Show element as a icon with label.
+
+.. image:: /images/stereotype-display.png
 
 
 Show Visibility
 ---------------
 
+To show (or hide) visibilities:
+
+1. Select view elements in diagram.
+2. Press :kbd:`Ctrl+Shift+V` or check (or uncheck) **Format | Show Visibility** in Menu Bar or Context Menu.
+
+
 Show Namespace
 --------------
 
+To show (or hide) namespace:
+
+1. Select view elements in diagram.
+2. Press :kbd:`Ctrl+Shift+N` or check (or uncheck) **Format | Show Namespace** in Menu Bar or Context Menu.
+
+.. _format-show-property:
+
 Show Property
 -------------
+
+To show (or hide) properties:
+
+1. Select view elements in diagram.
+2. Press :kbd:`Ctrl+Shift+P` or check (or uncheck) **Format | Show Property** in Menu Bar or Context Menu.
+
+Show Type
+---------
+
+To show (or hide) types:
+
+1. Select view elements in diagram.
+2. Press :kbd:`Ctrl+Shift+Y` or check (or uncheck) **Format | Show Type** in Menu Bar or Context Menu.
+
+
+Show Multiplicity
+-----------------
+
+To show (or hide) multiplicities:
+
+1. Select view elements in diagram.
+2. Press :kbd:`Ctrl+Shift+M` or check (or uncheck) **Format | Show Multiplicity** in Menu Bar or Context Menu.
+
+Show Operation Signature
+------------------------
+
+To show (or hide) operation signature:
+
+1. Select view elements in diagram.
+2. Press :kbd:`Ctrl+Shift+G` or check (or uncheck) **Format | Show Operation Signature** in Menu Bar or Context Menu.
+
+Suppress Attributes
+-------------------
+
+To suppress attributes:
+
+1. Select view elements (e.g. Class) in diagram.
+2. Press :kbd:`Ctrl+Shift+A` or check (or uncheck) **Format | Suppress Attributes** in Menu Bar or Context Menu.
+
+Suppress Operations
+-------------------
+
+To suppress operations:
+
+1. Select view elements (e.g. Class) in diagram.
+2. Press :kbd:`Ctrl+Shift+O` or check (or uncheck) **Format | Suppress Operations** in Menu Bar or Context Menu.
+
+
+Suppress Literals
+-----------------
+
+To suppress literals:
+
+1. Select Enumeration view elements in diagram.
+2. Press :kbd:`Ctrl+Shift+T` or check (or uncheck) **Format | Suppress Literals** in Menu Bar or Context Menu.
 
 
 Aligning View Elements
 ----------------------
 
+To bring view elements on the front:
+
+1. Select view elements in diagram.
+2. Select **Format | Alignment | Bring to Front** in Menu Bar or **Alignment | Bring to Front** in Context Menu.
+
+Or, to send view elements to the back:
+
+1. Select view elements in diagram.
+2. Select **Format | Alignment | Send to Back** in Menu Bar or **Alignment | Send to Back** in Context Menu.
+
+And, you can align two or more view elements:
+
+1. Select view elements in diagram.
+2. Select **Format | Alignment | <AlignmentKind>** in Menu Bar or **Alignment | <AlignmentKind>** in Context Menu.
+    * Align Left : Align selected view elements to the left.
+    * Align Right : Align selected view elements to the right.
+    * Align Middle : Center selected view elements horizontally.
+    * Align Top : Align selected view elements to the top.
+    * Align Bottom : Align selected view elements to the bottom.
+    * Align Center : Center selected view elements vertically.
+
+
 Layout Diagram
 --------------
+
+To layout diagram automatically:
+
+1. Open the diagram to be layout.
+2. Select **Format | Layout | Auto** in Menu Bar.
+
+If you want to layout diagram in a particular direction:
+
+1. Open the diagram to be layout.
+2. Select **Format | Layout | <Direction>** in Menu Bar. Supported directions are **Top to Bottom**, **Bottom to Top**, **Left to Right** and **Right to Left**.
 
 
 Extending Elements
@@ -291,16 +408,35 @@ Extending Elements
 Assign Stereotype
 -----------------
 
+To assign defined stereotype to elements (e.g. defined in UML Standard Profile):
+
+1. Select model elements to assign stereotype.
+2. Click the magnifier icon on the right side of `stereotype` property in :ref:`ui-property-editor`.
+3. Select a stereotype in :ref:`ui-element-picker-dialog`.
+
+
+To assign temporal stereotype to elements:
+
+1. Select model elements to assign stereotype.
+2. Enter stereotype name in `stereotype` property in :ref:`ui-property-editor`.
+
 
 Add Constraints
 ---------------
+
+To add a Constraint to an element:
+
+1. Select model elements to add a constraint.
+2. Select **Model | Add | Constraint** in Menu Bar or select **Add | Constraint** in Context Menu.
+3. Edit constraint in `specification` property in :ref:`ui-property-editor`.
+
 
 Add Tags
 --------
 
 Tag is an element to add extended properties to Model Elements
 
-To create a Tag:
+To add a Tag to an element:
 
 1. Select an Element in **Explorer** or in a Diagram.
 2. Select **Model | Add | Tag** in Menu Bar or select **Add | Tag** in Context Menu.
@@ -325,9 +461,16 @@ Properties of Tag:
 ``number``
 	Number value of Tag when ``kind`` is ``number``.
 
-To show or hide Tags on View Elements, select **Show Property**
+To show or hide Tags on View Elements, see :ref:`format-show-property`.
 
 
 Finding Model Elements
 ======================
+
+To find model elements by keyword:
+
+1. Press :kbd:`Ctrl+F` or Select **Model | Find...** in Menu Bar.
+2. Enter keyword in Edit Box.
+3. Check **Case sensitive** if you want to find keyword case sensitively, and check **Find in documentation** if you want to find keyword in documentation of elements.
+4. Matched elements will be shown on a Bottom Panel.
 
