@@ -59,8 +59,8 @@ Quick Edit for Attribute
 * Edit attribute expression
 * Add - Press Add button or press :kbd:`Ctrl+Enter`.
 * Delete - Press Delete button or press :kbd:`Ctrl+Delete`.
-* Move Up - Press Add Operation button or press :kbd:`Ctrl+Up`.
-* Move Down - Press Add Operation button or press :kbd:`Ctrl+Down`.
+* Move Up - Press Move Up button or press :kbd:`Ctrl+Up`.
+* Move Down - Press Move Down button or press :kbd:`Ctrl+Down`.
 
 
 .. _quick-edit-operation:
@@ -72,8 +72,8 @@ Quick Edit for Operation
 * Edit operation expression
 * Add - Press Add button or press :kbd:`Ctrl+Enter`.
 * Delete - Press Delete button or press :kbd:`Ctrl+Delete`.
-* Move Up - Press Add Operation button or press :kbd:`Ctrl+Up`.
-* Move Down - Press Add Operation button or press :kbd:`Ctrl+Down`.
+* Move Up - Press Move Up button or press :kbd:`Ctrl+Up`.
+* Move Down - Press Move Down button or press :kbd:`Ctrl+Down`.
 
 
 .. _quick-edit-template-parameter:
@@ -85,8 +85,8 @@ Quick Edit for Template Parameter
 * Edit template parameter expression
 * Add - Press Add button or press :kbd:`Ctrl+Enter`.
 * Delete - Press Delete button or press :kbd:`Ctrl+Delete`.
-* Move Up - Press Add Operation button or press :kbd:`Ctrl+Up`.
-* Move Down - Press Add Operation button or press :kbd:`Ctrl+Down`.
+* Move Up - Press Move Up button or press :kbd:`Ctrl+Up`.
+* Move Down - Press Move Down button or press :kbd:`Ctrl+Down`.
 
 
 .. _quick-edit-enumeration:
@@ -108,11 +108,75 @@ Support following actions:
 Quick Edit for Enumeration Literal
 ==================================
 
+Applicable to Enumeration Literals.
+
+Support following actions:
+
 * Change ``visibility`` - Select a visibility kind in the dropdown.
 * Edit name expression
 * Add - Press Add button or press :kbd:`Ctrl+Enter`.
 * Delete - Press Delete button or press :kbd:`Ctrl+Delete`.
-* Move Up - Press Add Operation button or press :kbd:`Ctrl+Up`.
-* Move Down - Press Add Operation button or press :kbd:`Ctrl+Down`.
+* Move Up - Press Move Up button or press :kbd:`Ctrl+Up`.
+* Move Down - Press Move Down button or press :kbd:`Ctrl+Down`.
 
+
+.. _quick-edit-instance:
+
+Quick Edit for Instance
+=======================
+
+Applicable to Instances (Object, ArtifactInstance, ComponentInstance, NodeInstance).
+
+Support following actions:
+
+* Change ``visibility`` - Select visibility in the dropdown button.
+* Edit name expression - Refer to :ref:`syntax-name-expression`.
+* Add Slot - Click Add Slot button.
+
+
+.. _quick-edit-slot:
+
+Quick Edit for Slot
+===================
+
+Applicable to Slots.
+
+Support following actions:
+
+* Change ``visibility`` - Select a visibility kind in the dropdown.
+* Edit name expression
+* Add - Press Add button or press :kbd:`Ctrl+Enter`.
+* Delete - Press Delete button or press :kbd:`Ctrl+Delete`.
+* Move Up - Press Move Up button or press :kbd:`Ctrl+Up`.
+* Move Down - Press Move Down button or press :kbd:`Ctrl+Down`.
+
+
+.. _quick-edit-use-case:
+
+Quick Edit for Use Case
+=======================
+
+Applicable to Use Case.
+
+Support following actions:
+
+* Change ``visibility`` - Select visibility in the dropdown button.
+* Edit name expression - Refer to :ref:`syntax-name-expression`.
+* Add Extension Point - Click Add Extension Point button.
+
+.. _quick-edit-extension-point:
+
+Quick Edit for Extension Point
+==============================
+
+Applicable to Extension Points.
+
+Support following actions:
+
+* Change ``visibility`` - Select a visibility kind in the dropdown.
+* Edit name expression
+* Add - Press Add button or press :kbd:`Ctrl+Enter`.
+* Delete - Press Delete button or press :kbd:`Ctrl+Delete`.
+* Move Up - Press Move Up button or press :kbd:`Ctrl+Up`.
+* Move Down - Press Move Down button or press :kbd:`Ctrl+Down`.
 

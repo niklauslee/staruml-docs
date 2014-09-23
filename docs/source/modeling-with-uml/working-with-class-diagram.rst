@@ -12,6 +12,10 @@ To create a Class Diagram:
 In Class Diagram, you can use following elements.
 
 * :ref:`uml-class`
+* :ref:`uml-attribute`
+* :ref:`uml-operation`
+* :ref:`uml-parameter`
+* :ref:`uml-template-parameter`
 * :ref:`uml-interface`
 * :ref:`uml-association`
 * :ref:`uml-aggregation`
@@ -96,8 +100,8 @@ To hide Operation signatures, see :ref:`format-show-operation-signature`.
 
 .. _uml-parameter:
 
-Add Parameter
-=============
+Parameter
+=========
 
 To add a Parameter:
 
@@ -146,6 +150,11 @@ To show an Interface as Lollipop notation, Interface should be realized (See :re
 
 To show an Interface as Socket notation, Interface should have dependants (See :ref:`uml-dependency`) and then change Stereotype Display to Icon or Icon with Label (See :ref:`format-stereotype-display`).
 
+To suppress Attributes, see :ref:`format-suppress-attributes`.
+
+To suppress Operations, see :ref:`format-suppress-operations`.
+
+To hide Operation signatures, see :ref:`format-show-operation-signature`.
 
 .. _uml-generalization:
 
