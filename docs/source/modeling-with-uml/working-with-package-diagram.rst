@@ -32,20 +32,64 @@ To create a Package on a diagram:
 1. Select **Package** in **Toolbox**.
 2. Drag on the diagram as the size of Package.
 
+To create a Package (model element only) by Menu:
+
+1. Select an Element where a new Package to be contained.
+2. Select **Model | Add | Package** in Menu Bar or **Add | Package** in Context Menu.
+
+To edit a Package, you can do following actions:
+
+* Use :ref:`quick-edit-general` by double-click or press :kbd:`Enter` on a selected Class.
 
 .. _uml-model:
 
 Model
 =====
 
-.. _uml-subsystem:
+To create a Model on a diagram:
 
+1. Select **Model** in **Toolbox**.
+2. Drag on the diagram as the size of Model.
+
+To create a Model (model element only) by Menu:
+
+1. Select an Element where a new Model to be contained.
+2. Select **Model | Add | Model** in Menu Bar or **Add | Model** in Context Menu.
+
+To edit a Model, you can do following actions:
+
+* Use :ref:`quick-edit-general` by double-click or press :kbd:`Enter` on a selected Class.
+
+
+.. _uml-subsystem:
 
 Subsystem
 =========
+
+To create a Subsystem on a diagram:
+
+1. Select **Subsystem** in **Toolbox**.
+2. Drag on the diagram as the size of Subsystem.
+
+To create a Subsystem (model element only) by Menu:
+
+1. Select an Element where a new Subsystem to be contained.
+2. Select **Model | Add | Subsystem** in Menu Bar or **Add | Subsystem** in Context Menu.
+
+To edit a Subsystem, you can do following actions:
+
+* Use :ref:`quick-edit-general` by double-click or press :kbd:`Enter` on a selected Class.
 
 
 .. _uml-containment:
 
 Containment
 ===========
+
+To show an Containment:
+
+1. Select **Containment** in **Toolbox**.
+2. Drag from an element (to be contained) and drop on a container element.
+
+.. note::
+    There is no Containment model element. The Containment view element only show the containment relationship between two elements. (Contained elements are shown as children in **Explorer**)

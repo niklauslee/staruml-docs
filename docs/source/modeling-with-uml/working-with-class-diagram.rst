@@ -52,15 +52,15 @@ To create a Class (model element only) by Menu:
 To edit a Class, you can do following actions:
 
 * Use :ref:`quick-edit-classifier` by double-click or press :kbd:`Enter` on a selected Class.
-* Add Attribute - See :ref:`uml-attribute`
-* Add Operation - See :ref:`uml-operation`
-* Add Template Parameter - See :ref:`uml-template-parameter`
+* Add Attribute - See :ref:`uml-attribute`.
+* Add Operation - See :ref:`uml-operation`.
+* Add Template Parameter - See :ref:`uml-template-parameter`.
 
+To suppress Attributes, see :ref:`format-suppress-attributes`.
 
-Suppress Attributes
+To suppress Operations, see :ref:`format-suppress-operations`.
 
-Suppress Operations
-
+To hide Operation signatures, see :ref:`format-show-operation-signature`.
 
 .. _uml-attribute:
 
@@ -76,7 +76,6 @@ To edit an Attribute, you can do following actions:
 
 * Use :ref:`quick-edit-attribute` by double-click or press :kbd:`Enter` on a selected Attribute.
 
-
 .. _uml-operation:
 
 Operation
@@ -90,8 +89,20 @@ To add an Operation:
 To edit an Operation, you can do following actions:
 
 * Use :ref:`quick-edit-operation` by double-click or press :kbd:`Enter` on a selected Operation.
+* Add Parameter - See :ref:`uml-parameter`.
 
-Show Operation Signature
+To hide Operation signatures, see :ref:`format-show-operation-signature`.
+
+
+.. _uml-parameter:
+
+Add Parameter
+=============
+
+To add a Parameter:
+
+1. Select an Operation.
+2. Select **Model | Add | Parameter** in Menu Bar or **Add | Parameter** in Context Menu.
 
 
 .. _uml-template-parameter:
@@ -131,11 +142,9 @@ To edit an Interface, you can do following actions:
 * Add Operation - See :ref:`uml-operation`
 * Add Template Parameter - See :ref:`uml-template-parameter`
 
+To show an Interface as Lollipop notation, Interface should be realized (See :ref:`uml-interface-realization`) and then change Stereotype Display to Icon or Icon with Label (See :ref:`format-stereotype-display`).
 
-To lollipop notation
-
-To socket notation
-
+To show an Interface as Socket notation, Interface should have dependants (See :ref:`uml-dependency`) and then change Stereotype Display to Icon or Icon with Label (See :ref:`format-stereotype-display`).
 
 
 .. _uml-generalization:
@@ -165,26 +174,26 @@ To create an Association (or Directed Association):
 Aggregation
 ===========
 
-Aggregation is an association whose ``aggregation`` propery is ``shared``.
-
 To create an Aggregation:
 
 1. Select **Aggregation** in **Toolbox**.
 2. Drag from an element (to be a part) and drop on another element (to be whole).
 
+.. note::
+    Aggregation is an association whose ``aggregation`` propery is ``shared``.
 
 .. _uml-composition:
 
 Composition
 ===========
 
-Composition is an association whose ``aggregation`` propery is ``composite``.
-
 To create a Composition:
 
 1. Select **Composition** in **Toolbox**.
 2. Drag from an element (to be a part) and drop on another element (to be whole).
 
+.. note::
+    Composition is an association whose ``aggregation`` propery is ``composite``.
 
 .. _uml-dependency:
 
@@ -300,8 +309,7 @@ To edit a Enumeration, you can do following actions:
 * Add Operation - See :ref:`uml-operation`
 * Add Template Parameter - See :ref:`uml-template-parameter`
 
-
-Suppress Literals
+To suppress Literals, see :ref:`format-suppress-literals`.
 
 
 .. _uml-enumeration-literal:

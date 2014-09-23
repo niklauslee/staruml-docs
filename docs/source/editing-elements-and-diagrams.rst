@@ -144,6 +144,8 @@ In **Explorer**, you can select a Model Element by clicking on an Element.
 If you want to select an element in **Explorer** corresponding to the a selected element in Diagram, press :kbd:`Ctrl+E` or select **Edit | Select In Explorer** in Menu Bar or **Select In Explorer** in Context Menu.
 
 
+.. _edit-copy-paste:
+
 Copy and Paste
 --------------
 
@@ -168,6 +170,8 @@ To copy and paste a model element in **Explorer**:
 .. note::
 	Some elements are not allowed to copy, cut, and paste.
 
+.. _edit-undo-redo:
+
 Undo and Redo
 -------------
 
@@ -176,11 +180,15 @@ To undo an action, press :kbd:`Ctrl+Z` or select **Edit | Undo** in Menu Bar.
 To redo an undo-ed action, press :kbd:`Ctrl+Y` or select **Edit | Redo** in Menu Bar.
 
 
+.. _edit-edit-properties:
+
 Edit Properties
 ---------------
 
 You can edit properties of model elements in :ref:`ui-property-editor`.
 
+
+.. _edit-documenting-elements:
 
 Documenting Elements
 --------------------
@@ -188,8 +196,12 @@ Documenting Elements
 You can edit documentation of model elements in :ref:`ui-documentation-editor`.
 
 
+.. _format:
+
 Formatting View Elements
 ========================
+
+.. _format-font:
 
 Change Font
 -----------
@@ -205,6 +217,7 @@ To change font face, size, and color of view elements:
 
 You can also use :ref:`ui-style-editor` to change Font face, size, and color.
 
+.. _format-line-color:
 
 Change Line Color
 -----------------
@@ -220,6 +233,8 @@ To change line color of view elements:
 You can also use :ref:`ui-style-editor` to change line color.
 
 
+.. _format-fill-color:
+
 Change Fill Color
 -----------------
 
@@ -231,6 +246,8 @@ To change fill color of view elements:
 
 You can also use :ref:`ui-style-editor` to change fill color.
 
+
+.. _format-line-style:
 
 Change Line Style
 ------------------
@@ -246,6 +263,9 @@ To change line style of view elements:
 
 You can also use :ref:`ui-style-editor` to line style.
 
+
+.. _format-auto-resize:
+
 Set Auto Resize
 ---------------
 
@@ -256,6 +276,9 @@ To set view elements always resize automatically:
 
 You can also use :ref:`ui-style-editor` to line style.
 
+
+.. _format-word-wrap:
+
 Set Word Wrap
 -------------
 
@@ -264,6 +287,8 @@ To allow text can be shown in multiple lines:
 1. Select view elements in diagram.
 2. Press :kbd:`Ctrl+Shift+W` or check (or uncheck) **Format | Word Wrap** in Menu Bar or Context Menu.
 
+
+.. _format-stereotype-display:
 
 Stereotype Display
 ------------------
@@ -285,6 +310,8 @@ Supported stereotype display kinds are follow:
 .. image:: /images/stereotype-display.png
 
 
+.. _format-show-visibility:
+
 Show Visibility
 ---------------
 
@@ -294,6 +321,8 @@ To show (or hide) visibilities:
 2. Press :kbd:`Ctrl+Shift+V` or check (or uncheck) **Format | Show Visibility** in Menu Bar or Context Menu.
 
 
+.. _format-show-namespace:
+
 Show Namespace
 --------------
 
@@ -301,6 +330,7 @@ To show (or hide) namespace:
 
 1. Select view elements in diagram.
 2. Press :kbd:`Ctrl+Shift+N` or check (or uncheck) **Format | Show Namespace** in Menu Bar or Context Menu.
+
 
 .. _format-show-property:
 
@@ -312,6 +342,9 @@ To show (or hide) properties:
 1. Select view elements in diagram.
 2. Press :kbd:`Ctrl+Shift+P` or check (or uncheck) **Format | Show Property** in Menu Bar or Context Menu.
 
+
+.. _format-show-type:
+
 Show Type
 ---------
 
@@ -321,6 +354,8 @@ To show (or hide) types:
 2. Press :kbd:`Ctrl+Shift+Y` or check (or uncheck) **Format | Show Type** in Menu Bar or Context Menu.
 
 
+.. _format-show-multiplicities:
+
 Show Multiplicity
 -----------------
 
@@ -328,6 +363,8 @@ To show (or hide) multiplicities:
 
 1. Select view elements in diagram.
 2. Press :kbd:`Ctrl+Shift+M` or check (or uncheck) **Format | Show Multiplicity** in Menu Bar or Context Menu.
+
+.. _format-show-operation-signature:
 
 Show Operation Signature
 ------------------------
@@ -337,6 +374,8 @@ To show (or hide) operation signature:
 1. Select view elements in diagram.
 2. Press :kbd:`Ctrl+Shift+G` or check (or uncheck) **Format | Show Operation Signature** in Menu Bar or Context Menu.
 
+.. _format-suppress-attributes:
+
 Suppress Attributes
 -------------------
 
@@ -344,6 +383,9 @@ To suppress attributes:
 
 1. Select view elements (e.g. Class) in diagram.
 2. Press :kbd:`Ctrl+Shift+A` or check (or uncheck) **Format | Suppress Attributes** in Menu Bar or Context Menu.
+
+
+.. _format-suppress-operations:
 
 Suppress Operations
 -------------------
@@ -354,6 +396,8 @@ To suppress operations:
 2. Press :kbd:`Ctrl+Shift+O` or check (or uncheck) **Format | Suppress Operations** in Menu Bar or Context Menu.
 
 
+.. _format-suppress-literals:
+
 Suppress Literals
 -----------------
 
@@ -362,6 +406,8 @@ To suppress literals:
 1. Select Enumeration view elements in diagram.
 2. Press :kbd:`Ctrl+Shift+T` or check (or uncheck) **Format | Suppress Literals** in Menu Bar or Context Menu.
 
+
+.. _format-align-views:
 
 Aligning View Elements
 ----------------------
@@ -387,6 +433,7 @@ And, you can align two or more view elements:
     * Align Bottom : Align selected view elements to the bottom.
     * Align Center : Center selected view elements vertically.
 
+.. _format-layout-diagram:
 
 Layout Diagram
 --------------
@@ -401,9 +448,12 @@ If you want to layout diagram in a particular direction:
 1. Open the diagram to be layout.
 2. Select **Format | Layout | <Direction>** in Menu Bar. Supported directions are **Top to Bottom**, **Bottom to Top**, **Left to Right** and **Right to Left**.
 
+.. _extend-elements:
 
 Extending Elements
 ==================
+
+.. _extend-assign-stereotype:
 
 Assign Stereotype
 -----------------
@@ -420,6 +470,7 @@ To assign temporal stereotype to elements:
 1. Select model elements to assign stereotype.
 2. Enter stereotype name in `stereotype` property in :ref:`ui-property-editor`.
 
+.. _extend-add-constraints:
 
 Add Constraints
 ---------------
@@ -430,6 +481,8 @@ To add a Constraint to an element:
 2. Select **Model | Add | Constraint** in Menu Bar or select **Add | Constraint** in Context Menu.
 3. Edit constraint in `specification` property in :ref:`ui-property-editor`.
 
+
+.. _extend-add-tags:
 
 Add Tags
 --------
@@ -463,6 +516,7 @@ Properties of Tag:
 
 To show or hide Tags on View Elements, see :ref:`format-show-property`.
 
+.. _find-elements:
 
 Finding Model Elements
 ======================
