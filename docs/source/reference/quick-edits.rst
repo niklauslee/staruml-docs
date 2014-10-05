@@ -180,3 +180,45 @@ Support following actions:
 * Move Up - Press Move Up button or press :kbd:`Ctrl+Up`.
 * Move Down - Press Move Down button or press :kbd:`Ctrl+Down`.
 
+
+.. _quick-edit-lifeline:
+
+Quick Edit for Lifeline
+=======================
+
+Applicable to Lifeline.
+
+Support following actions:
+
+* Edit lifeline expression
+* Select Type - Press Select Type button.
+* Create Type - Press Create Type button.
+
+
+.. _quick-edit-message:
+
+Quick Edit for Message
+======================
+
+Applicable to Message.
+
+Support following actions:
+
+* Edit message expression
+* Select Operation - Press Select Operation button.
+* Create Operation - Press Create Operation button.
+* Select Signal - Press Select Signal button.
+* Create Signal - Press Create Signal button.
+
+
+.. _quick-edit-combined-fragment:
+
+Quick Edit for Combined Fragment
+================================
+
+Applicable to Combined Fragment.
+
+Support following actions:
+
+* Edit name expression
+* Add Operand - Press Add Operand button.
