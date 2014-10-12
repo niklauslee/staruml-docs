@@ -30,7 +30,7 @@ Syntax of Name Expression
 
 ``visibility = "+" | "#" | "-" | "~"``
     ``+`` (public), ``#`` (protected), ``-`` (private), or ``~`` (package).
-    
+
 ``name``
     Name of element.
 
@@ -222,3 +222,46 @@ Support following actions:
 
 * Edit name expression
 * Add Operand - Press Add Operand button.
+
+
+.. _quick-edit-state:
+
+Quick Edit for State
+====================
+
+Applicable to State.
+
+Support following actions:
+
+* Edit name expression
+* Add Region - Press Add Region button.
+* Add Entry Activity - Press Add Entry Activity button.
+* Add Do Activity - Press Add Do Activity button.
+* Add Exit Activity - Press Add Exit Activity button.
+
+
+.. _quick-edit-transition:
+
+Quick Edit for Transition
+=========================
+
+Applicable to Transition.
+
+Support following actions:
+
+* Edit name expression
+* Add Trigger Event - Press Add Trigger Event button.
+* Add Behavior Effect - Press Add Behavior Effect button.
+
+
+.. _quick-edit-action:
+
+Quick Edit for Action
+=====================
+
+Applicable to Action.
+
+Support following actions:
+
+* Edit name expression
+* Add Trigger Event - Press Add Trigger Event button.
