@@ -18,7 +18,7 @@ To create a modeling project, press :kbd:`Ctrl+n` or select **File | New**. If y
 Open Project
 ============
 
-If you have model files (``.umlj``), you can open it in StarUML. To open a model file, press :kbd:`Ctrl+o` or select **File | Open...** and then select a file in Open Dialog.
+If you have model files (``.mdj``), you can open it in StarUML. To open a model file, press :kbd:`Ctrl+o` or select **File | Open...** and then select a file in Open Dialog.
 
 
 .. _open-v1-file:

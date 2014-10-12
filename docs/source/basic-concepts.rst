@@ -51,9 +51,6 @@ UML (Unified Modeling Language) is so general-purpose modeling language that cou
 * Profiles for specific development methodologies (RUP, Catalysis, UML Components, etc.)
 * Profiles for specific domains (EAI, CRM, SCM, ERP, etc.)
 
-.. seealso::
-    Defining UML Profiles... (fix this link)
-
 
 .. _concept-extension:
 
@@ -65,6 +62,3 @@ An extension is a package which adds new features to StarUML. For example, an ex
 .. seealso::
     :doc:`managing-extensions`
         To use extensions.
-
-    :doc:`writing-extensions`
-        To write an extension.

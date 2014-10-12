@@ -4,7 +4,7 @@
 Organizing Project
 ==================
 
-A system is typically described in multiple perspectives. 
+A system is typically described in multiple perspectives.
 
 Start from Template
 -------------------
@@ -21,3 +21,4 @@ If you don't want to use pre-defined templates, you need to make your own projec
 Applying Profiles
 -----------------
 
+To include UML Standard Profile, select **Model | Apply Profile | UML Standard Profile (v2)** in Menu Bar.

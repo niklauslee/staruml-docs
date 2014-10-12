@@ -12,7 +12,7 @@ Do you want to extend UML? Then, you don't need to defined complicated XML docum
 Extensibility
 =============
 
-StarUML 2 is developed using modern Web Technologies, so anyone can write extensions using HTML5, CSS, and JavaScript. Adding a new menu, accessing to model data, adding a new user interfaces or dialogs, and even new modeling languages (e.g., ERD, BPMN) could be defined as an extension. In addition, the model file (.umlj) is stored in JSON (JavaScript Object Notation) format which can be parsed and accessed easily in many programming languages.
+StarUML 2 is developed using modern Web Technologies, so anyone can write extensions using HTML5, CSS, and JavaScript. Adding a new menu, accessing to model data, adding a new user interfaces or dialogs, and even new modeling languages (e.g., ERD, BPMN) could be defined as an extension. In addition, the model file (.mdj) is stored in JSON (JavaScript Object Notation) format which can be parsed and accessed easily in many programming languages.
 One interesting point of StarUML 2 is Node.js integration. This allows you to access local files, many kinds of Databases, and interoperating with various Servers. Moreover, you can utilize more than 50,000 Node.js packages to write extensions.
 
 Enhanced UX

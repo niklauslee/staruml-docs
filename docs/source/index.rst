@@ -6,20 +6,19 @@
 StarUML 2 Documentation
 =======================
 
+.. note::
+	This documentation is a work in progress.
+
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
-   introduction
-   getting-started
    basic-concepts
    managing-project
    editing-elements-and-diagrams
    Modeling with UML <modeling-with-uml/modeling-with-uml>
-   settings
    managing-extensions
-   Writing Extensions <writing-extensions/writing-extensions>
    Reference <reference/reference>
 
 
