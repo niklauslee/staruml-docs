@@ -56,6 +56,15 @@ To create a Message (or Self Message):
 1. Select **Message** (or **Self Message**) in **Toolbox**.
 2. Drag from a Lifeline and drop on another Lifeline. (Just click on a Lifeline if you want to create a self message.)
 
+You can change the kind of message by setting `messageSort` property in **Property Editor**:
+
+* `synchCall` : Synchronous Call
+* `asynchCall` : Asynchronous Call
+* `asynchSignal` : Asynchronous Signal
+* `createMessage` : Create Message
+* `deleteMessage` : Delete Message
+* `reply` : Reply Message
+
 To edit a Message, you can do following actions:
 
 * Use :ref:`quick-edit-message` by double-click or press :kbd:`Enter` on a selected Message.
