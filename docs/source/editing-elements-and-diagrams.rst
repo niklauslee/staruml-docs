@@ -45,7 +45,7 @@ To close all diagrams, press :kbd:`Shift+F4` or select **View | Close All Diagra
 Change Active Diagram
 ---------------------
 
-To change active diagram, select a diagram in  in **Working Diagram**.
+To change active diagram, select a diagram in **Working Diagram**.
 
 To activate the next diagram, press :kbd:`Ctrl+Shift+]` or select **View | Next Diagram**.
 
