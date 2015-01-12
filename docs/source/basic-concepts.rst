@@ -24,7 +24,7 @@ Model Element, View Element, and Diagram
 
 *Element* is building block constitutes a software model. There are three kinds of *Elements*: *Model Element*, *View Element*, and *Diagram*.
 
-You need to have a clear conceptual distinction between Model Element, View Element and Diagram. A *Model Element* is an element that contains information for a software model. A *View Element* is a visual representation of a particular a *Model Element*. A *Diagram* is a collection of *View Elements* in order to represent a partcular perspective of the system.
+You need to have a clear conceptual distinction between Model Element, View Element and Diagram. A *Model Element* is an element that contains information for a software model. A *View Element* is a visual representation of a particular a *Model Element*. A *Diagram* is a collection of *View Elements* in order to represent a particular perspective of the system.
 
 .. _concept-fragment:
 
