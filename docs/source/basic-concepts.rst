@@ -19,12 +19,16 @@ Typically *Project* is organized as a set of *UMLModels*, *UMLPackages*, or *UML
 
 .. _concept-element:
 
-Model Element, View Element, and Diagram
-========================================
+Model vs. Diagram
+=================
 
-*Element* is building block constitutes a software model. There are three kinds of *Elements*: *Model Element*, *View Element*, and *Diagram*.
+Many users are confusing the difference between *diagramming or drawing* tool such as Microsoft Visio and *modeling* tools such StarUML or Rational Software Architect. First you need to understand a diagram is not a model.
 
-You need to have a clear conceptual distinction between Model Element, View Element and Diagram. A *Model Element* is an element that contains information for a software model. A *View Element* is a visual representation of a particular a *Model Element*. A *Diagram* is a collection of *View Elements* in order to represent a particular perspective of the system.
+*Model* or *software model* is a description of any aspect of a software system such as structure, behavior, requirement, and so on. Software model can be represented in textual, mathmatical or visual. *Model element* is building block constitutes a software model.
+
+*Diagram* is a visual geometric symbolic representation of a software model. A software model can be represented in one or more diagrams with different aspects. For example, a diagram can focus on class hierarchical structure but another diagram can focus on interaction between objects. Diagram consists of *view elements*, which is a visual representation of a *model element*.
+
+A *model element* typically may have multiple corresponding *view elements*. Model element have its own data such as *name*, *stereotype*, *type*, etc. View element just renders the corresponding model element in a diagram. View elements may exists multiple times in a diagram or different diagrams. If *name* of a model element changed, all corresponding view elements are reflects the changes in diagrams.
 
 .. _concept-fragment:
 
