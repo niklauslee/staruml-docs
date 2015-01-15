@@ -31,14 +31,14 @@ You need to have a clear conceptual distinction between Model Element, View Elem
 Fragment
 ========
 
-A fragment is a part of a project saved as a separate file with the extension name ``.umlf``. Any element can be exported as a fragment, but typically *UMLPackage*, *UMLModel*, and *UMLSubsystem* are the candidates. Once a fragment is exported as a file, the fragment can be reused by importing in a project.
+A fragment is a part of a project saved as a separate file with the extension name ``.mfj``. Any element can be exported as a fragment, but typically *UMLPackage*, *UMLModel*, and *UMLSubsystem* are the candidates. Once a fragment is exported as a file, the fragment can be reused by importing in a project.
 
 .. seealso::
     :ref:`import-fragment`
-    	To import a fragment file.
+        To import a fragment file.
 
     :ref:`export-fragment`
-    	To export an element to a fragment file.
+        To export an element to a fragment file.
 
 .. _concept-profile:
 
