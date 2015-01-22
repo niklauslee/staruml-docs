@@ -1,13 +1,13 @@
 .. _uml-class-diagram:
 
-==========================
-Working with Class Diagram
-==========================
+===========================
+Working with Class Diagrams
+===========================
 
 To create a Class Diagram:
 
-1. Select first an element where a new Class Diagram to be contained as a child.
-2. Select **Model | Add Diagram | Class Diagram** in Menu Bar or select **Add Diagram | Class Diagram** in Context Menu.
+1. First select an element where a new Class Diagram to be contained as a child.
+2. Select **Model | Add Diagram | Class Diagram** in the Menu Bar or select **Add Diagram | Class Diagram** in Context Menu.
 
 In Class Diagram, you can use following elements.
 
