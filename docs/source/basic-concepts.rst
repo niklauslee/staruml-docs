@@ -22,13 +22,13 @@ Typically *Project* is organized as a set of *UMLModels*, *UMLPackages*, or *UML
 Model vs. Diagram
 =================
 
-Many users are confusing the difference between *diagramming or drawing* tool such as Microsoft Visio and *modeling* tools such StarUML or Rational Software Architect. First you need to understand a diagram is not a model.
+Many users are confusing the difference between *diagramming or drawing* tools such as Microsoft Visio and *modeling* tools such StarUML or Rational Software Architect. First you need to understand a diagram is not a model.
 
-*Model* or *software model* is a description of any aspect of a software system such as structure, behavior, requirement, and so on. Software model can be represented in textual, mathmatical or visual. *Model element* is building block constitutes a software model.
+*Model* or *software model* is a description of any aspect of a software system such as structure, behavior, requirement, and so on. A software model can be represented in textual, mathmatical or visual form. A *Model element* is a building block of a software model.
 
-*Diagram* is a visual geometric symbolic representation of a software model. A software model can be represented in one or more diagrams with different aspects. For example, a diagram can focus on class hierarchical structure but another diagram can focus on interaction between objects. Diagram consists of *view elements*, which is a visual representation of a *model element*.
+A *Diagram* is a visual geometric symbolic representation of a software model. A software model can be represented in one or more diagrams with different aspects. For example, a diagram can focus on class hierarchical structure while another diagram can focus on interaction between objects. Diagrams consists of *view elements*, which are visual representations of a *model element*.
 
-A *model element* typically may have multiple corresponding *view elements*. Model element have its own data such as *name*, *stereotype*, *type*, etc. View element just renders the corresponding model element in a diagram. View elements may exists multiple times in a diagram or different diagrams. If *name* of a model element changed, all corresponding view elements are reflects the changes in diagrams.
+A *model element* typically has multiple corresponding *view elements*. A model element has its own data such as *name*, *stereotype*, *type*, etc. A view element just renders the corresponding model element in a diagram. View elements may exists multiple times in a diagram or in different diagrams. If the *name* of a model element changed, all corresponding view elements reflect the changes in their diagrams.
 
 .. _concept-fragment:
 
