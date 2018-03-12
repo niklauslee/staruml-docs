@@ -18,6 +18,7 @@ Contents:
    managing-project
    editing-elements-and-diagrams
    Modeling with UML <modeling-with-uml/modeling-with-uml>
+   Modeling with ERD <modeling-with-erd/modeling-with-erd>
    managing-extensions
    Reference <reference/reference>
 
