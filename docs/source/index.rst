@@ -20,6 +20,7 @@ Contents:
    Modeling with UML <modeling-with-uml/modeling-with-uml>
    Modeling with ERD <modeling-with-erd/modeling-with-erd>
    managing-extensions
+   Developing Extensions <developing-extensions/developing-extensions>
    Reference <reference/reference>
 
 
